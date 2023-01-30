@@ -197,15 +197,6 @@ impl Lavanka {
                     let back_x_offset: i32 = -85;
                     let back_y_offset: i32 = -30;
 
-                    let padding = 5;
-
-                    // let rect = sdl2::rect::Rect::new(
-                    //     x_offset as i32 + back_x_offset - back_x_size as i32 / 2,
-                    //     y_offset as i32 + back_y_offset - back_y_size as i32 / 2,
-                    //     back_x_size,
-                    //     back_y_size,
-                    // );
-
                     if *value != 0 {
                         canvas
                             .filled_trigon(
